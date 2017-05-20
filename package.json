@@ -21,9 +21,7 @@
         "url": "https://github.com/superjojo140/structit/issues"
     }
     , "homepage": "https://github.com/superjojo140/structit#readme"
-    , {
-        "dependencies": {
-            "jquery": "latest"
-        }
+    , "dependencies": {
+        "jquery": "latest"
     }
 }
