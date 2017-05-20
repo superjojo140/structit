@@ -1,0 +1,90 @@
+mainBox {
+    background: #fcfcfc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    max-width: 90%;
+    margin-top: 10%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6794ba;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+}
+
+input {
+    margin: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    width: 80%;
+}
+
+label {
+    font-size: 170%;
+    text-align: center;
+    display: block;
+}
+
+input[type=submit] {
+    background: #4a8ec1;
+    color: aliceblue;
+    width: 85%;
+    cursor: pointer;
+}
+
+input[type=submit]:focus {
+    border-color: gray;
+}
+
+tab {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    flex: auto;
+    border-width: 1px;
+    border-color: #6794ba;
+    border-top-style: solid;
+    cursor: pointer;
+    text-align: center;
+}
+
+tab:hover {
+    background: rgba(209, 209, 209, 0.35);
+}
+
+.activeTab {
+    border-top-color: orange;
+}
+
+tabBar {
+    display: flex;
+    flex-basis: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+message {
+    font-family: sans-serif;
+    font-size: 80%;
+    margin-left: 2px;
+    display: block;
+}
+
+messageBox {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+{
+    "name": "structit"
+    , "version": "1.0.0"
+    , "description": "An Outliner as fast as your thoughts"
+    , "main": "index.php"
+    , "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+    , "repository": {
+        "type": "git"
+        , "url": "git+https://github.com/superjojo140/structit.git"
+    }
+    , "keywords": [
+    "outline"
+    , "structure"
+    , "mindmap"
+    , "brainstorm"
+  ]
+    , "author": "superjojo140"
+    , "bugs": {
+        "url": "https://github.com/superjojo140/structit/issues"
+    }
+    , "homepage": "https://github.com/superjojo140/structit#readme"
+    , {
+        "dependencies": {
+            "jquery": "latest"
+        }
+    }
+}

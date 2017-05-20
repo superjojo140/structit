@@ -1,0 +1,192 @@
+sidebar{
+    display: block;
+    margin-top: 3%; 
+    left: 0px;
+    width: 20%;
+    background: #353636;
+    position: fixed;
+    height: 95%;
+    padding-top: 5%;
+    color: beige;
+}
+
+.projectActive {
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	background: #ffffff;
+	width: 100%;
+	display: block;
+    color: #5f695f;
+	/*border-radius: 0 50px 50px 0;*/
+}
+
+project {
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	background: #5f695f;
+	width: 100%;
+	display: block;
+	border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    color: #f5f5f5;
+}
+
+project:hover{
+    background: #c9c6c6;
+}
+
+
+sideTopBar{
+    background: #a3a3a3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+#addProjectForm{
+    display:flex;
+    max-width: 90%; 
+    justify-content: space-between;
+}
+
+#newProjectName{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    
+}
+
+#sendNewProject{
+
+}
+
+addProject{
+    display: none;
+     background: #a3a3a3;
+    padding: 15px;
+}
+
+textfeld{
+    width: 100%;
+}
+
+/* google icon font*/
+icon { 
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  cursor: pointer;
+  vertical-align: middle;
+  
+
+
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+#addProjectButton {
+    background: #39a9e5;
+    border-radius: 4px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#addProjectButton:hover{
+    background: #1893fd;
+}
+
+snackbar {
+    position: fixed;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    width: 20%;
+    z-index: 10;
+    border: 0px solid beige;
+}
+
+toast{
+    display: block;
+    padding: 10px;
+    font-size: 80%;
+    text-align: center;
+}
+
+.blue {
+    background: #0277bd;
+    color: azure;
+}
+
+.green {
+    background: #00a747;
+    color: beige;
+}
+
+.yellow {
+    background: #ffb300;
+    color: beige;
+}
+
+.pink{
+    background: #c2185b;
+    color: beige;
+}
+
+.purple{
+    background: #7b1fa2;
+    color: beige;
+}
+
+.teal{
+    background: #009688;
+    color: beige;
+}
+
+.orange{
+    background: #e65100;
+    color: beige;
+}
+
+.textIcon {
+    vertical-align:middle;
+}
+input{
+    outline: none;
+}
+
+#toggleSidebar {
+    display: block;
+    padding: 5px;
+    background-color: #00a747;
+    right: 2%;
+    bottom: 2%;
+    position: fixed;
+    color: #ececec;
+    
+}
+
+#toggleSidebar:hover{
+    background-color: #00d058;
+}
