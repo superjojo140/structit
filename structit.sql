@@ -61,12 +61,7 @@ CREATE TABLE `user` (
   `admin` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Daten für Tabelle `user`
---
 
-INSERT INTO `user` (`id`, `nickname`, `passwort`, `name`, `mail`, `aktiv`, `admin`) VALUES
-(1, 'superjojo140', '202cb962ac59075b964b07152d234b70', 'Johannes', 'dev@superjojo.de', 1, 1);
 
 --
 -- Indizes der exportierten Tabellen
