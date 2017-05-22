@@ -8,8 +8,8 @@ checkIfLoggedIn("false");
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
-        <link rel="stylesheet" href="structit.css">
-        <link rel="stylesheet" href="colors.css">
+        <link rel="stylesheet" href="visualisation/structit.css">
+        <link rel="stylesheet" href="visualisation/colors.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="node_modules/jquery/dist/jquery.js"></script>
@@ -18,7 +18,7 @@ checkIfLoggedIn("false");
     <body>
         <header class="header">
             <logo class="logo">
-                <a href="http://www.superjojo.de"> <img style="height:100%;" src="pics/logo.png"> </a>
+                <a href="#"> <img style="height:100%;" src="pics/logo.png"> </a>
             </logo>
         </header>
         
@@ -37,6 +37,6 @@ checkIfLoggedIn("false");
                     <br> </box>
             </content>
     </body>
-    <script src="structit.js"></script>
+    <script src="model/structit.js"></script>
 
     </html>
