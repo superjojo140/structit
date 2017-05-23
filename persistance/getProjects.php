@@ -7,7 +7,7 @@ $userId = $_SESSION["userId"];
     
 
 
-    $sql="SELECT name,id FROM structit WHERE user='$userId';";
+    $sql="SELECT structs.id, structs.name FROM structs, user, relation_user_structs WHERE structs.id = relation_user_structs.structId AND user.id = relation_user_structs.userId AND user.id = $userId;";
     $result = mysqli_query($db,$sql);
     while($row = mysqli_fetch_array($result)) {
         
